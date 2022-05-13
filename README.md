@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/yjs0ge8ctr664art?svg=true)](https://ci.appveyor.com/project/Oleg50sev/order-card-delivery-autotest-ci-gradle-pm7g0)
