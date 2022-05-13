@@ -184,7 +184,7 @@ public class OrderCardDeliveryTask1Test {
         $("[data-test-id=name] input").setValue("Иванов Сергей");
         $("[data-test-id=phone] input").setValue("+79789991100");
         $(withText("Забронировать")).click();
-        $("[data-test-id=agreement] .checkbox__text").shouldHave(exactText("Я соглашаюсь с " +
+        $(".input_invalid .checkbox__text").shouldHave(exactText("Я соглашаюсь с " +
                 "условиями обработки и использования моих персональных данных"));
     }
 }
